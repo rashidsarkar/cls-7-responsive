@@ -1,0 +1,16 @@
+.item {
+  border: 1px solid aquamarine;
+  grid-column-start: auto;
+}
+.container {
+  border: 2px solid hotpink;
+  display: grid;
+  /* grid-template-columns: 200px 100px 200px 200px 200px; */
+  /* grid-template-columns: repeat(2, 200px) 200px 100px; */
+  /* grid-template-columns: repeat(4, 1fr) 2fr; */
+  /* grid-template-columns: 200px 200px auto; */
+  grid-template-columns: 200px 200px 200px;
+  /* justify-content: space-around; */
+  /* justify-items: center; */
+  /* grid-column-start: auto; */
+}
